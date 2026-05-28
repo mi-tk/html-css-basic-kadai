@@ -8,7 +8,7 @@
     }
 
     #parent {
-        display: block;
+        flex-direction: column;
     }
 }
 
@@ -62,7 +62,7 @@ h2 {
 }
 
 h2::before {
-    content: "⚫︎";
+    content: "●";
     color: rgb(239,111,139);
 
 }
